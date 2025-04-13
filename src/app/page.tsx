@@ -181,11 +181,11 @@ export default function Home() {
       />
 
       <ProjectShowcase
-        imageSrc="/images/diabeat_ui.PNG"
+        imageSrc="/images/diabeat_ui.png"
         imageAlt="Diabeat UI Screenshot"
         imageWidth={700}
         imageHeight={1166}
-        logoSrc="/images/gene_lab_logo.PNG"
+        logoSrc="/images/diabeat-logo.PNG"
         logoAlt="Diabeat Logo"
         logoWidth={100}
         logoHeight={100}

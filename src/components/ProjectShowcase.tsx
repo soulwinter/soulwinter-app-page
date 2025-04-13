@@ -75,7 +75,7 @@ const ProjectShowcase: React.FC<ProjectShowcaseProps> = ({
               WebkitTextStroke: '5px white', // Text stroke (reduced width)
               textStroke: '5px white',
               paintOrder: 'stroke fill'
-            } as any} // Cast to any for non-standard textStroke
+            } as React.CSSProperties & { textStroke: string; paintOrder: string }} // Use specific type assertion
           >
             {title} {/* Display the title prop */}
           </h2>
