@@ -88,7 +88,7 @@ export default function Home() {
 
         
         <a
-          href="https://x.com/soulwinter" 
+          href="https://x.com/soulwinter_" 
           target="_blank"
           rel="noopener noreferrer"
           className="p-2 rounded-full hover:bg-gray-200 transition-colors duration-200"
