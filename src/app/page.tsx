@@ -163,16 +163,7 @@ export default function Home() {
         </a>
       </div>
 
-      <div>
-      <h2>Testing Failing Image Directly:</h2>
-      <Image
-        src="/images/keygulate_ui.png" // 使用一个已知失败的图片
-        alt="Direct Test Keygulate UI"
-        width={700}   // 保持与 ProjectShowcase 中一致的尺寸
-        height={1166}
 
-      />
-      </div>
       <ProjectShowcase
         imageSrc="/images/gene_lab_ui.png"
         imageAlt="Genetics Lab UI Screenshot"
