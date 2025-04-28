@@ -164,11 +164,11 @@ export default function Home() {
       </div>
 
       <ProjectShowcase
-        imageSrc="/images/gene_lab_ui.PNG"
+        imageSrc="/images/gene_lab_ui.png"
         imageAlt="Genetics Lab UI Screenshot"
         imageWidth={700}
         imageHeight={420}
-        logoSrc="/images/gene_lab_logo.PNG"
+        logoSrc="/images/gene_lab_logo.png"
         logoAlt="Genetics Lab Logo"
         logoWidth={100}
         logoHeight={100}
@@ -185,7 +185,7 @@ export default function Home() {
         imageAlt="Diabeat UI Screenshot"
         imageWidth={700}
         imageHeight={1166}
-        logoSrc="/images/diabeat-logo.PNG"
+        logoSrc="/images/diabeat-logo.png"
         logoAlt="Diabeat Logo"
         logoWidth={100}
         logoHeight={100}
@@ -197,11 +197,11 @@ export default function Home() {
       />
 
       <ProjectShowcase
-        imageSrc="/images/keygulate_ui.PNG"
+        imageSrc="/images/keygulate_ui.png"
         imageAlt="Keygulate UI Screenshot"
         imageWidth={700}
         imageHeight={1166}
-        logoSrc="/images/keygulate_logo.PNG"
+        logoSrc="/images/keygulate_logo.png"
         logoAlt="Keygulate Logo"
         logoWidth={100}
         logoHeight={100}
