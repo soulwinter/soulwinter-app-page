@@ -49,8 +49,8 @@ const ProjectShowcase: React.FC<ProjectShowcaseProps> = ({
           alt={imageAlt}
           width={imageWidth}    // Used for aspect ratio & placeholder
           height={imageHeight}   // Used for aspect ratio & placeholder
-          sizes={imageSizes}     // **<-- Added sizes prop here**
-          priority={true}        // Optional: Consider adding priority if it's above the fold LCP element
+          // sizes={imageSizes}     // **<-- Added sizes prop here**
+          // priority={true}        // Optional: Consider adding priority if it's above the fold LCP element
           className="rounded-lg" // Image styling
         />
       </div>
