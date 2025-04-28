@@ -27,12 +27,6 @@ const ProjectShowcase: React.FC<ProjectShowcaseProps> = ({
   // Determine if the image should be on the left based on the prop
   const isImageLeft = imagePosition === 'left';
 
-  // **计算 sizes 属性值**
-  // 示例：假设 md 断点是 768px。
-  // 小于 768px 时，图片宽度可能是视口宽度 (100vw)。
-  // 大于等于 768px 时，图片宽度是 imageWidth。
-  // !!! 注意：你可能需要根据你的具体 CSS 布局来调整 '100vw' 或断点 '767px' !!!
-  const imageSizes = `(max-width: 767px) 100vw, ${imageWidth}px`;
 
   return (
     // Main container section with conditional layout
