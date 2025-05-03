@@ -228,7 +228,7 @@ export default function Home() {
             borderRadius: 10
           }}
           sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
-          src="https://embed.music.apple.com/cn/playlist/%E9%9F%B3%E4%B9%90%E5%9B%9E%E5%BF%86-2025/pl.rp-pENEhPpgyoo4"
+          src="https://embed.music.apple.com/us/playlist/replay-2025/pl.rp-pENEhPpgyoo4"
         />
       </div>
       {/* 其他内容可以添加在这里 */}
