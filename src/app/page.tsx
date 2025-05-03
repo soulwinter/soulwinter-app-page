@@ -213,7 +213,24 @@ export default function Home() {
         ]}
         imagePosition="left" 
       />
-
+      <div className="h-12" />
+      <div className="flex items-center justify-end gap-8">
+        <h2 className="text-4xl font-bold font-inter">Listening</h2>
+        <iframe
+          allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
+          frameBorder="0"
+          height={450}
+          style={{
+            width: '100%',
+            maxWidth: 200,
+            height: 100,
+            overflow: 'hidden',
+            borderRadius: 10
+          }}
+          sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+          src="https://embed.music.apple.com/cn/playlist/%E9%9F%B3%E4%B9%90%E5%9B%9E%E5%BF%86-2025/pl.rp-pENEhPpgyoo4"
+        />
+      </div>
       {/* 其他内容可以添加在这里 */}
     </main>
   );
