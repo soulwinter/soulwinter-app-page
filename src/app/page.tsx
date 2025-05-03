@@ -214,16 +214,15 @@ export default function Home() {
         imagePosition="left" 
       />
       <div className="h-12" />
-      <div className="flex items-center justify-end gap-8">
+      <div className="flex flex-col md:flex-row items-start gap-8">
         <h2 className="text-4xl font-bold font-inter">Listening</h2>
         <iframe
           allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
           frameBorder="0"
-          height={450}
+          height={500}
           style={{
-            width: '100%',
-            maxWidth: 200,
-            height: 100,
+            maxWidth: 300,
+            maxHeight: 500,
             overflow: 'hidden',
             borderRadius: 10
           }}
